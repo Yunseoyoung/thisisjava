@@ -23,6 +23,7 @@ public class Bank { //이건 걍 실행해보는 문이라고 했남
 //		}
 		
 		System.out.println(dao.deposit("2222", 500));
+		System.out.println("잘된다.");
 		dao.close();
 	}
 
